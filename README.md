@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# MovieFlix 📽️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**MovieFlix** è una semplice app di prova per la gestione dei film, sviluppata con **React Native** ed **Expo**. Questa app consente agli utenti di navigare e cercare film in modo intuitivo. È una parte del mio percorso di apprendimento come programmatore, con l'obiettivo di perfezionare le mie abilità nello sviluppo di applicazioni mobile.
 
-## Get started
+---
 
-1. Install dependencies
+## Presentazione
 
-   ```bash
-   npm install
-   ```
+Ciao! Sono un programmatore in fase di studio con una grande passione per lo sviluppo mobile. **MovieFlix** è il mio primo progetto che utilizza **Expo** e **React Native**, e mi sta aiutando a migliorare la mia esperienza con queste tecnologie. L'app è una demo semplice ma funzionale, in cui puoi cercare film, visualizzarli e esplorare le funzionalità di un'app React Native connessa a un backend.
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## Come iniziare
 
-In the output, you'll find options to open the app in a
+Segui questi passaggi per iniziare a sviluppare l'app:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 1. Installa le dipendenze
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Per iniziare, prima di tutto devi installare le dipendenze del progetto. Puoi farlo eseguendo il comando:
 
-## Get a fresh project
+```bash
+npm install
+```
 
-When you're ready, run:
+### 2. Avvia l'app
+
+Dopo aver installato le dipendenze, puoi avviare l'app con il seguente comando:
+
+```bash
+npx expo start
+```
+
+Questo comando avvierà il server di sviluppo e mostrerà diverse opzioni per aprire l'app:
+
+- **[Sviluppo su dispositivo Android](https://docs.expo.dev/workflow/android-studio-emulator/)**: Emulatore Android.
+- **[Sviluppo su dispositivo iOS](https://docs.expo.dev/workflow/ios-simulator/)**: Simulatore iOS.
+- **[Expo Go](https://expo.dev/go)**: Un'app sandbox limitata per provare lo sviluppo dell'app con Expo.
+
+### 3. Inizia a sviluppare
+
+Puoi iniziare a sviluppare modificando i file all'interno della directory **app**. Il progetto utilizza **file-based routing** per la gestione delle schermate.
+
+---
+
+## Reimpostare il progetto
+
+Se desideri ripristinare il progetto da zero, puoi eseguire il comando:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Questo comando sposterà il codice di avvio nella directory **app-example** e creerà una nuova directory **app** vuota dove puoi iniziare a sviluppare.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## Impara di più
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Per imparare a sviluppare progetti con Expo, dai un'occhiata alle seguenti risorse:
 
-## Join the community
+- [Documentazione di Expo](https://docs.expo.dev/): Scopri le basi o approfondisci con le [guide avanzate](https://docs.expo.dev/guides).
+- [Tutorial Learn Expo](https://docs.expo.dev/tutorial/introduction/): Segui un tutorial passo-passo per creare un progetto che gira su Android, iOS e web.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Unisciti alla community
+
+Unisciti alla nostra community di sviluppatori che stanno creando app universali.
+
+- [Expo su GitHub](https://github.com/expo/expo): Visualizza la nostra piattaforma open-source e contribuisci.
+- [Community su Discord](https://chat.expo.dev): Chatta con altri utenti di Expo e fai domande.
+
+---
+
+Spero che tu possa trovare **MovieFlix** interessante e utile nel tuo percorso di apprendimento! Se hai domande o feedback, sentiti libero di contattarmi. 🚀
