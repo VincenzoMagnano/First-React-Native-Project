@@ -48,9 +48,11 @@ export default function Index() {
         ) : (
           <View>
             <SearchBar
-              onPress={() => router.push('/search')}
-              placeholder="Search for a movie"
-            />
+                  onPress={() => router.push('/search')}
+                  placeholder="Search for a movie" value={""} 
+                  onChangeText={function (text: string): void {
+                    throw new Error("Function not implemented.");
+                  } }            />
 
             <>
               <Text
