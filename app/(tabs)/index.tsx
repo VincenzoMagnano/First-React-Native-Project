@@ -69,18 +69,18 @@ export default function Index() {
                   Trending Movies
                 </Text>
                 <FlatList
-                horizontal
-                showsHorizontalScrollIndicator= {false}
-                ItemSeparatorComponent={() => <View className="w-4"/>}
+                  horizontal
+                  showsHorizontalScrollIndicator={false}
+                  ItemSeparatorComponent={() => <View className="w-4" />}
                   className="mb-4 mt-3"
                   data={trendingMovies}
                   renderItem={({
                     item, index
                   }) => (
                     <TrendingCard
-                    movie={item}
-                    index={index}
-                    
+                      movie={item}
+                      index={index}
+
                     />
                   )}
                   keyExtractor={(item) => item.movie_id.toString()}
